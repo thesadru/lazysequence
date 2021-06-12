@@ -2,7 +2,7 @@ import itertools
 from collections.abc import MutableSequence
 from typing import Generic, Iterable, Iterator, List, Sequence, TypeVar
 
-__all__ = ['IteratorSequence']
+__all__ = ['LazySequence']
 
 T = TypeVar('T')
 
